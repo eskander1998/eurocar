@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
@@ -35,7 +36,14 @@
       "react-app",
       "react-app/jest",
       "plugin:storybook/recommended"
-    ]
+    ],
+  "rules": {
+    "no-unused-vars": "warn",
+    "jsx-a11y/alt-text": "warn",
+    "jsx-a11y/anchor-is-valid": "warn",
+    "jsx-a11y/iframe-has-title": "warn"
+  }
+
   },
   "browserslist": {
     "production": [
