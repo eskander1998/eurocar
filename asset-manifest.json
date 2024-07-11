@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/eurocar/static/css/main.241951ba.css",
+    "main.js": "/eurocar/static/js/main.3b4c484b.js",
+    "static/js/787.9027c520.chunk.js": "/eurocar/static/js/787.9027c520.chunk.js",
+    "static/media/FjallaOne-Regular.ttf": "/eurocar/static/media/FjallaOne-Regular.34fddd1e53b238e6d80f.ttf",
+    "static/media/Lato-Regular.ttf": "/eurocar/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "index.html": "/eurocar/index.html",
+    "main.241951ba.css.map": "/eurocar/static/css/main.241951ba.css.map",
+    "main.3b4c484b.js.map": "/eurocar/static/js/main.3b4c484b.js.map",
+    "787.9027c520.chunk.js.map": "/eurocar/static/js/787.9027c520.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.241951ba.css",
+    "static/js/main.3b4c484b.js"
+  ]
+}
