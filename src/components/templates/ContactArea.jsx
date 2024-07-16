@@ -76,7 +76,7 @@ const ContactSection = styled.div`
 background-color: #141311;
   display: flex;
   flex-direction: column;
-  padding-top: 5%;
+  padding: 5%;
   width: 100%;
   max-height: 100%;
 
@@ -123,6 +123,22 @@ const Highlight = styled.span`
   color: #f2c40e;
 `;
 
+const ResponsiveIframeContainer = styled.div`
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* This is for a 16:9 aspect ratio */
+`;
+
+const ResponsiveIframe = styled.iframe`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+`;
+
+
 const ContactArea = () => {
   return (
     <ServicesContainer id="contact">
@@ -130,14 +146,20 @@ const ContactArea = () => {
         <Title id="service-area">
           <h2>Localisation</h2>
         </Title>
+
+        <ResponsiveIframeContainer>
+          <ResponsiveIframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.9113698862102!2d10.174955816996897!3d36.868946747489105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cbd82f06cec9%3A0xe7af7418b59a481c!2sEuro%20Car%20Ennasr%20(location%20de%20voiture)!5e0!3m2!1sfr!2stn!4v1720622173755!5m2!1sfr!2stn"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </ResponsiveIframeContainer>
+{/*         
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.9113698862102!2d10.174955816996897!3d36.868946747489105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cbd82f06cec9%3A0xe7af7418b59a481c!2sEuro%20Car%20Ennasr%20(location%20de%20voiture)!5e0!3m2!1sfr!2stn!4v1720622173755!5m2!1sfr!2stn"
          width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-         </iframe>
-        {/* <StatesList>
-          {states.map((states) => (
-            <a href="#service-area">{states}</a>
-          ))}
-        </StatesList> */}
+         </iframe> */}
+   
       </StatesSection>
 
       <ContactSection>
