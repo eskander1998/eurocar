@@ -201,11 +201,6 @@ const ContactArea = () => {
           </div>
 
           <div>
-            <p className="service">Tarif abordable</p>
-            <img src="../assets/gal1.png"></img>
-          </div>
-
-          <div>
             <p className="service">Disponible 7/7J</p>
             <img src="../assets/gal1.png"></img>
           </div>

@@ -163,4 +163,12 @@ export const vehicleCards = [
     price: "300",
     url: "#vehicles",
   },
+  ,
+  {
+    title: "RENAULT CLIO 5",
+    description: "300 km included per day",
+    img: "./assets/RENAULT_CLIO.png",
+    price: "120",
+    url: "#vehicles",
+  },
 ];

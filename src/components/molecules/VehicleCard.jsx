@@ -34,6 +34,7 @@ const CardPrice = styled.p`
   text-transform: uppercase;
   letter-spacing: 2px;
   transform: translateY(-40px);
+  padding-top: 11%;
   padding-left: 4px;
 
   span {

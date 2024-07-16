@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.241951ba.css",
+    "main.js": "/static/js/main.7bca803a.js",
+    "static/js/787.9027c520.chunk.js": "/static/js/787.9027c520.chunk.js",
+    "static/media/FjallaOne-Regular.ttf": "/static/media/FjallaOne-Regular.34fddd1e53b238e6d80f.ttf",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "index.html": "/index.html",
+    "main.241951ba.css.map": "/static/css/main.241951ba.css.map",
+    "main.7bca803a.js.map": "/static/js/main.7bca803a.js.map",
+    "787.9027c520.chunk.js.map": "/static/js/787.9027c520.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.241951ba.css",
+    "static/js/main.7bca803a.js"
+  ]
+}
